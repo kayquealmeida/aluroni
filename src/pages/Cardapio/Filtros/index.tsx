@@ -29,7 +29,7 @@ export default function Filtros({filtro, setFiltro}: Props) {
             {
               classNames({
                 [styles.filtros__filtro]: true,
-                [styles["filtros__filtro--ativo"]]: filtro == opcao.id
+                [styles['filtros__filtro--ativo']]: filtro == opcao.id
               })
             } 
           key={opcao.id} 
@@ -39,5 +39,5 @@ export default function Filtros({filtro, setFiltro}: Props) {
       ))}
     </div>
 
-  )
+  );
 }
